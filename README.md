@@ -9,10 +9,10 @@ You have probably read other guides for this purpose but it is simply clunky to 
 Being the lazy person that I am.. instead of creating a long story in UiPath for something that would be 5-10 lines in a script, I had to scratch that itch.
 
 ### Con ###
-Logging, UiPath will not know that you are running a script with the exception that it waits for the script to complete so you want to make that give you a confirmation and/or add lines to the logs by other means.
+UiPath will not know that you are running a script with the exception that it waits for the script to complete so you possibly need to add lines to the logs and/or include ways of confirmation in your scripts.
 
 ### Pro ###
-There is a tremendous amount of modules and scripts made by other smarter people than atleast myself so you can do big IQ stuff with your robots with the help of their efforts and ofcourse a massive community. A huge pro in my book.
+The ability to make use of modules and scripts made by people with big IQs for your projects and the scripts do not need to be run within the context of UiPath. Huge.
 
 
 WIP
