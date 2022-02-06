@@ -4,7 +4,7 @@ Hello!
 
 This project is mean't to demonstrate how you can get UiPath to run Powershell scripts.
 
-The support for running scripts is not very good and the suggestions that I found weren't pretty and you are (afaik) forced to run the script within the context of UiPath, which is not always ideal. 
+The support for running scripts is not very good and the shared suggestions weren't pretty and you are (afaik) forced to run the script within the context of UiPath, which is not always ideal. 
 
 Being the lazy person that I am.. I also wanted to be able to avoid creating a fairly simple but long story in UiPath to do something that would otherwise be 5-10 lines of code.
 
