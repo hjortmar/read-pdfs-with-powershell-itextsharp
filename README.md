@@ -2,17 +2,16 @@
 
 Hello!
 
-This project is meant to demonstrate how you can get UiPath to run Powershell scripts.
+This project is mean't to demonstrate how you can get UiPath to run Powershell scripts.
 
-You have probably read other guides for this purpose but it is simply clunky to deal with through UiPath and it is run through the context of UiPath which I did recognize to be reliable. It might have been my fault, I just felt that the flexibility is not there.. atleast not yet.
- 
-Being the lazy person that I am.. instead of creating a long story in UiPath for something that would be 5-10 lines in a script, I had to scratch that itch.
+The support for running scripts is not very good and the suggestion that I found weren't pretty and you are (afaik) forced to run the script within the context of UiPath, which is not always ideal. 
+Being the lazy person that I am.. I also wanted to be able to avoid creating a fairly simple but long story in UiPath to do something that would otherwise be 5-10 lines of code.
 
 ### Con ###
-UiPath will not know that you are running a script with the exception that it waits for the script to complete so you possibly need to add lines to the logs and/or include ways of confirmation in your scripts.
+UiPath will not automagically log the outcome of your script, it will wait for the script to complete but you will need to deal with the logs and/or include ways of confirmation of your desired outcome in your script when you need to be thorough (which should be always).
 
 ### Pro ###
-The ability to make use of modules and scripts made by people with big IQs for your projects and the scripts do not need to be run within the context of UiPath. Huge.
+The ability to make use of modules and scripts made by people with big IQs for your UiPath projects and the scripts do not need to be run within the context of UiPath. Huge.
 
 
 WIP
