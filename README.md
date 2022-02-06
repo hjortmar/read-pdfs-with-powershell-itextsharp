@@ -4,7 +4,7 @@ Hello!
 
 This project is mean't to demonstrate how you can get UiPath to run Powershell scripts.
 
-The shared suggestions that I could find elsewhere weren't pretty and Invoke Powershell can deal with simple scripts but it is clunky and lacks control. You are (afaik) also forced to run the script within the context of UiPath, which is not always ideal. 
+The shared suggestions that I could find elsewhere weren't pretty and [Invoke Powershell](https://docs.uipath.com/activities/docs/invoke-power-shell) can deal with simple scripts but it is clunky and lacks control. You are (afaik) also forced to run the script within the context of UiPath, which is not always ideal. 
 
 Being the lazy person that I am.. I also wanted to be able to avoid creating a fairly simple but long story in UiPath to do something that would otherwise be 5-10 lines of code.
 
