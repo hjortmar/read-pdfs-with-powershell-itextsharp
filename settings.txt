@@ -1,0 +1,2 @@
+pdf_folder = "C:\TEMP\PDFs"
+output_folder = "C:\TEMP\PDFs"
